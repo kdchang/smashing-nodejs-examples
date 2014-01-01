@@ -1,3 +1,5 @@
-###Smashing Node.js: JavaScript Everywhere By Guillermo Rauch
+###Smashing Node.js: JavaScript Everywhere Example
+####By Guillermo Rauch
 =====
-Link:[http://smashingnode.com/]
+Book Link: http://smashingnode.com/]
+

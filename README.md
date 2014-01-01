@@ -1,4 +1,3 @@
-#Smashing Node.js: JavaScript Everywhere By Guillermo Rauch
-***
+###Smashing Node.js: JavaScript Everywhere By Guillermo Rauch
 =====
-[Link:http://smashingnode.com/]
+Link:[http://smashingnode.com/]

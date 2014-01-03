@@ -1,3 +1,7 @@
+/**
+Chapter 6 #IRC
+**/
+
 var net = require('net');
 
 var client = net.connect(6667, 'irc.freenode.net');

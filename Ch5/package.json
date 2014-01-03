@@ -1,0 +1,6 @@
+#package.json
+{
+	"name": "cli-file-explorer",
+	"version": "0.0.1",
+	"description": "a new command-line-file explorer!"
+}

@@ -13,16 +13,16 @@ var net = require('net');
 
 var server = net.createServer(function(conn){
 	//handle the connection
+	var nickname;
+	conn.setEncoding('utf8');
 	console.log('\033[90m  new connection!\033[39m');
 	conn.write('\n>welcome to \033[92m node-chat\033[39m!'
 	 	+ '\n>' + count + ' ' +'other people are connect at this time'
 		+ '\n> please write your name and press enter : \n'
 	);
 	count++;
-	
-	conn.setEncoding('utf8');
 
-	conn.on('data', function(){
+	conn.on('data', function(data){
 		data.replace('\r\n', '');
 		console.log(data);
 	});

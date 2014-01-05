@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Web Socket</title>
+</head>
+<body>
+	<h1>Web Socket</h1>
+	<h2>Latency: <span id="latency"></span></h2>
+	<script>
+		var lastMessage;
+		var wsUri = 'ws://localhost:3000';
+
+		window.onload = function(){
+			var ws = new WebSocket(wsUri);
+			console.log(ws);
+			//websocket = new WebSocket(wsUri);
+			// ws.onopen = function(evt){
+			// 	console.log('hi');
+			// 	alert('open');
+			// 	ping();
+			// }
+			ws.addEventListener('open', function(){alert('open');});
+			ws.onmessage = function(ev){
+				alert('open');
+				console.log('  got:' + ev.data);
+				document.getElementById('latency').innerHTML = new Date - lastMessage;
+				ping();
+			}
+			ws.onerror = function(err){
+				alert(evt.data);
+			};
+
+			function ping(){
+				lastMessage = +new Date;
+				ws.send('ping'); 
+			}
+		}
+	</script>
+</body>
+</html>

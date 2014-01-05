@@ -1,0 +1,9 @@
+{
+	"name": "echo-socket",
+	"version": "0.0.1",
+	"description": "echo the socket",
+	"dependencies": {
+		"express": "*",
+		"websocket.io": "*"
+	}
+}

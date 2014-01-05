@@ -1,0 +1,9 @@
+{
+	"name": "connect-sample",
+	"version": "0.0.1",
+	"description": "This is a connect sample.",
+	"dependencies": {
+		"connect": "*",
+		"connect-redis": "*"
+	}
+}

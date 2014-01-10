@@ -1,0 +1,10 @@
+{
+	"name": "mogodb",
+	"version": "0.0.1",
+	"description": "mongodb-user-auth-example",
+	"dependencies": {
+		"express": "*",
+		"mongodb": "*",
+		"jade": "*"
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"name": "socket-io",
+	"version": "0.0.1",
+	"description": "a cross platform web socket application",
+	"dependencies": {
+		"express": "*",
+		"socket.io": "*"
+	}
+}

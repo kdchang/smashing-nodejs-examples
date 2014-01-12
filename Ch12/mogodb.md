@@ -1,5 +1,5 @@
 #NoSQL MongoDB Tutorial
-http://try.mongodb.org/
+Site:http://try.mongodb.org/
 
 $>mongod
 $>mongo
